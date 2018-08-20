@@ -1,5 +1,5 @@
  size(280,280);
- byte[] data=loadBytes("cat.npy");
+ byte[] data=loadBytes("any_file_name.npy");
  int total=100;
  byte[] outdata=new byte[total*784];
  int outindex=0;
@@ -21,4 +21,4 @@
    int y=28 * (n/10);
    image(img,x,y);
  }
- saveBytes("cat100.bin",outdata);
+ saveBytes("any_file_name.bin",outdata);
